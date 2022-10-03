@@ -2,8 +2,12 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  .page-header{
+    text-align: center;
+  }
+
   body {
-   background-image: url("https://www.schemecolor.com/wallpaper?i=59095&desktop");
+   background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png");
   }
   
   table, th, td {
