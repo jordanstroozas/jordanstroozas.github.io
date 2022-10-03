@@ -1,0 +1,38 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+   background-image: url("https://www.schemecolor.com/wallpaper?i=59095&desktop");
+  }
+  
+  table, th, td {
+    border: 1px solid;
+  }
+  
+  th {
+    background-color: #9e42f5;
+  }
+  
+  #foo {
+    text-align: right;
+  }
+  #last {
+    text-decoration: line-through;
+  }
+  
+  ul {
+    list-style-type: square;
+  }
+  
+  ul:last-child
+  {
+    list-style-type: circle;
+  }
+  
+  a:hover {
+    color:white
+  }
+  
+
+  
