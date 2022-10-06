@@ -18,9 +18,19 @@
     text-align: center;
     color: #594F4F;
   }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #594F4F;
+    color: #E5FCC2;
+    text-align: center;
+  }
   
   body {
-   background-color: #594F4F;
+   background-color: #E5FCC2;
   }
   
   table, th, td {
