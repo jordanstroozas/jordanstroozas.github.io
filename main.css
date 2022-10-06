@@ -29,10 +29,11 @@
     text-decoration: line-through;
   }
 
-  .morbin {
+  #morbin {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    text-align: center;
   }
   
   ul {
