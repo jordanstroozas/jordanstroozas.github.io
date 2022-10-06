@@ -3,14 +3,14 @@
   }
   
   .page-header{
+    font-size: 40px;
     border: 5px outset rgb(32, 32, 174);
     background-color: rgb(57, 140, 168); 
-    text-align: center;
     text-align: center;
   }
   
   body {
-   background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/fb/Light_blue.png");
+   background-image: url("https://elementor.com/cdn-cgi/image/f=auto,w=1024,h=576/marketing/wp-content/uploads/sites/9/2021/09/2-radial-color-gradient-example-1024x576.jpg");
   }
   
   table, th, td {
