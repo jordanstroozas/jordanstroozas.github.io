@@ -10,13 +10,13 @@
 
   .page-header{
     border: 3px solid;
-    border-color: rgb(17, 6, 78);
-    box-shadow: 5px 10px 8px rgb(0, 85, 255);
-    background-color: #547980; 
+    border-color: #E5FCC2;
+    box-shadow: 5px 10px 8px #594F4F;
+    background-color: #E5FCC2; 
     padding: 10px;
     font-size: 28px;
     text-align: center;
-    color: #E5FCC2;
+    color: #594F4F;
   }
   
   body {
@@ -55,8 +55,5 @@
   }
   
   a:hover {
-    color:white
+    color:white;
   }
-  
-
-  
