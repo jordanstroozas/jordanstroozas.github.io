@@ -11,14 +11,15 @@
     border: 3px solid;
     border-color: rgb(17, 6, 78);
     box-shadow: 5px 10px 8px rgb(0, 85, 255);
-    background-color: rgb(57, 140, 168); 
-    padding: 10px;
+    background-color: #547980; 
+    /* padding: 10px; */
     font-size: 28px;
     text-align: center;
+    
   }
   
   body {
-   background-image: url("https://elementor.com/cdn-cgi/image/f=auto,w=1024,h=576/marketing/wp-content/uploads/sites/9/2021/09/2-radial-color-gradient-example-1024x576.jpg");
+   background-color: #594F4F;
   }
   
   table, th, td {
