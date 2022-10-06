@@ -27,6 +27,7 @@
     background-color: #594F4F;
     color: #E5FCC2;
     text-align: center;
+    font-size: 9px;
   }
   
   body {
@@ -42,9 +43,6 @@
     background-color: #9e42f5;
   }
   
-  p {
-    font-size: 9px;
-  }
   #foo {
     text-align: right;
   }
@@ -69,5 +67,9 @@
   }
   
   a:hover {
-    color:white;
+    color:#9DE0AD;
+  }
+
+  a {
+    color: #E5FCC2;
   }
