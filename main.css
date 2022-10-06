@@ -3,8 +3,9 @@
   }
   
   .page-header{
-    font-size: 40px;
-    border: 5px outset rgb(32, 32, 174);
+    font-size: 28px;
+    border: 5px;
+    border-color: rgb(17, 6, 78);
     background-color: rgb(57, 140, 168); 
     text-align: center;
   }
