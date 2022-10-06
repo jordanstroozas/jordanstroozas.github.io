@@ -12,7 +12,7 @@
   .page-header {
     border: 3px solid;
     border-color: #E5FCC2;
-    box-shadow: 3px 3px 3px #594F4F, 3px 3px 3px #549780;
+    box-shadow: 3px 3px 3px #594F4F, 6px 6px 6px #549780;
     background-color: #9DE0AD; 
     padding: 10px;
     font-size: 28px;
