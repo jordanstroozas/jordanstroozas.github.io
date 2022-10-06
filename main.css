@@ -3,6 +3,9 @@
   }
   
   .page-header{
+    border: 5px outset rgb(32, 32, 174);
+    background-color: rgb(57, 140, 168); 
+    text-align: center;
     text-align: center;
   }
   
