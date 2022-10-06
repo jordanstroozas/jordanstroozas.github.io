@@ -3,6 +3,7 @@
   }
   
   #col1, #col2 {
+    padding-top: 10%;
     float: left;
     width: 49%;
     color: #594F4F;
@@ -11,8 +12,8 @@
   .page-header {
     border: 3px solid;
     border-color: #E5FCC2;
-    box-shadow: 5px 10px 8px #594F4F;
-    background-color: #E5FCC2; 
+    box-shadow: 3px 3px 3px #594F4F, 3px 3px 3px #549780;
+    background-color: #9DE0AD; 
     padding: 10px;
     font-size: 28px;
     text-align: center;
@@ -28,6 +29,10 @@
     color: #E5FCC2;
     text-align: center;
     font-size: 9px;
+  }
+
+  p {
+    font-size: 14px;
   }
   
   body {
@@ -67,9 +72,9 @@
   }
   
   a:hover {
-    color:#9DE0AD;
+    color:#E5FCC2;
   }
-
+  
   a {
-    color: #E5FCC2;
+    color: #9DE0AD;
   }
