@@ -5,10 +5,10 @@
   #col1, #col2 {
     float: left;
     width: 49%;
-    color: #E5FCC2;
+    color: #594F4F;
   }
 
-  .page-header{
+  .page-header {
     border: 3px solid;
     border-color: #E5FCC2;
     box-shadow: 5px 10px 8px #594F4F;
@@ -37,10 +37,14 @@
     border: 1px solid;
   }
   
+
   th {
     background-color: #9e42f5;
   }
   
+  p {
+    font-size: 9px;
+  }
   #foo {
     text-align: right;
   }
