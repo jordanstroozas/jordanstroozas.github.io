@@ -8,10 +8,15 @@
     color: #594F4F;
   }
 
-  #col2{
-    float:right;
+  .nav-bar {
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
   }
-
+  
   .nav-bar > ul 
   {
     list-style-type: none;
@@ -20,11 +25,7 @@
     overflow: hidden;
     background-color: #594F4F;
   }
-  .nav-bar > li 
-  {
-    display: inline;
-    float: left;
-  }
+  
 
   /* .nav-bar > li > a 
   {
