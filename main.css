@@ -8,13 +8,10 @@
     color: #594F4F;
   }
 
-  #col2 {
-    float: right;
+  #col2{
+    float:right;
   }
 
-  .nav-bar {
-    display: inline;
-  }
   .nav-bar > ul 
   {
     list-style-type: none;
@@ -23,9 +20,13 @@
     overflow: hidden;
     background-color: #594F4F;
   }
-  
+  .nav-bar > li 
+  {
+    display: inline;
+    float: left;
+  }
 
-  .nav-bar > li > a 
+  .nav-bar > li a 
   {
     display: block;
     color: #E5FCC2;
