@@ -3,7 +3,6 @@
   }
   
   #col1, #col2 {
-    padding-top: 10%;
     float: left;
     width: 49%;
     color: #594F4F;
@@ -13,7 +12,7 @@
     border: 3px solid;
     border-color: #E5FCC2;
     box-shadow: 3px 3px 3px #594F4F, 6px 6px 6px #549780;
-    background-color: #9DE0AD; 
+    background-color: #E5FCC2; 
     padding: 10px;
     font-size: 28px;
     text-align: center;
@@ -36,7 +35,7 @@
   }
   
   body {
-   background-color: #E5FCC2;
+   background-color: #9DE0AD;
   }
   
   table, th, td {
