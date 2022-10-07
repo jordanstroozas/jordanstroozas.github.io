@@ -12,6 +12,28 @@
     float:right;
   }
 
+  .nav-bar > ul 
+  {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #594F4F;
+  }
+  .nav-bar > li 
+  {
+    float: left;
+  }
+
+  .nav-bar > li a 
+  {
+    display: block;
+    color: #E5FCC2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
   .page-header {
     border: 3px solid;
     border-color: #E5FCC2;
@@ -75,9 +97,9 @@
   }
   
   a:hover {
-    color:#9DE0AD;
+    color: #E5FCC2;
   }
   
   a {
-    color: wheat;
+    color: #594F4F;
   }
