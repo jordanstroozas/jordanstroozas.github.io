@@ -12,27 +12,18 @@
     float:right;
   }
 
-  .nav-bar > ul 
+  .nav-bar
   {
-    list-style-type: none;
-    margin:0;
-    padding: 0;
-    overflow: hidden;
     background-color: #594F4F;
+    text-align: left;
+    padding: .65px;
+    margin: 5px;
+    margin-left: -30px;
   }
-  .nav-bar > li 
+  .nav-bar ul li 
   {
     display: inline;
-    float: left;
-  }
-
-  .nav-bar > li a 
-  {
-    display: block;
-    color: #E5FCC2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    width: 100%;
   }
 
   .page-header {
