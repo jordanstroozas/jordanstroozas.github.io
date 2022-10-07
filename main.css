@@ -8,6 +8,10 @@
     color: #594F4F;
   }
 
+  #col2{
+    float:right;
+  }
+
   .page-header {
     border: 3px solid;
     border-color: #E5FCC2;
