@@ -22,10 +22,11 @@
   }
   .nav-bar > li 
   {
+    display: inline;
     float: left;
   }
 
-  .nav-bar > li a 
+  .nav-bar > li > a 
   {
     display: block;
     color: #E5FCC2;
@@ -101,5 +102,5 @@
   }
   
   a {
-    color: #594F4F;
+    color: #549780;
   }
