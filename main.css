@@ -8,7 +8,11 @@
     color: #594F4F;
   }
 
-  #col2{
+  #col1 {
+    margin-left: 60px;
+  }
+
+  #col2 {
     float:right;
   }
 
@@ -20,6 +24,7 @@
     margin: 5px;
     margin-left: -30px;
   }
+
   .nav-bar ul li a
   {
     display: inline;
