@@ -8,15 +8,13 @@
     color: #594F4F;
   }
 
-  .nav-bar {
-    float: left;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px;
-    margin: 0px;
+  #col2 {
+    float: right;
   }
-  
+
+  .nav-bar {
+    display: inline;
+  }
   .nav-bar > ul 
   {
     list-style-type: none;
@@ -27,14 +25,14 @@
   }
   
 
-  /* .nav-bar > li > a 
+  .nav-bar > li > a 
   {
     display: block;
     color: #E5FCC2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  } */
+  }
 
   .page-header {
     border: 3px solid;
