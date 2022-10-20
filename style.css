@@ -1,0 +1,165 @@
+* {
+	margin:0;
+	padding: 0;	
+}
+
+body { 
+	background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+	color: white;
+	font-family: Verdana,Arial,Helvetica;
+}
+
+p { 	
+	font-size: 1.5em;
+	line-height: 2em;
+}
+
+/* https://cssgradient.io/blog/css-gradient-text/ */
+h3 {
+	background: -webkit-linear-gradient(rgba(0, 0, 255, 0.322), #333);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding-bottom: 35px;
+	padding-top: 20px;
+  }
+
+
+.intro {
+	padding: 0 62px 0 60px;
+	width: 1000px;	
+	padding-bottom: 140px;
+	transform: translate(-6px, 25px);
+}
+
+.supporting {	
+	width: 1600px;	
+	padding-left: 140px;
+}
+
+.preamble
+{
+	font-style: oblique;
+	padding-bottom: 140px;
+	
+}
+
+.preamble h3
+{
+	font-size: 4em;
+	padding-left: 80px;
+}
+
+.supporting h3,
+.participation h3,
+.requirements h3,
+.explanation h3,
+.benefits h3
+{
+	font-size: 3em;
+	text-align: left;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.preamble p,
+.supporting h3,
+.supporting p {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.participation,
+.requirements {
+	background-color: rgba(162, 0, 255, 0.048);
+	border-bottom: 1px solid grey;
+	padding-bottom: 60pt;
+}
+
+.explanation,
+.benefits{
+	background-color: rgba(255, 0, 0, 0.034);
+	border-bottom: 1px solid grey;
+	padding-bottom: 60pt;	
+}
+
+header, 
+.summary p:first-child {
+	font-size: .72em;
+	text-align: right;
+	transform: translate(515px, 830px);
+	width: 40%;
+	
+}
+
+.sidebar h3 {
+	font-size: 1.6em;
+	transform: translate(20px, 0px);
+}
+
+.sidebar {	
+	background-color: rgba(245, 241, 241, 0.13);
+	left: 1000px; 	
+	padding-top: 2em;
+	padding-bottom: 6em;
+	position: absolute;
+	top: 185px;	
+	width: 740px;
+}
+
+.sidebar .wrapper { 
+	font: 1.2em verdana;				
+	padding-bottom: 160px;
+}
+
+.sidebar .wrapper h3 {
+	padding: 0 0 2px 0;
+	width: 285px;	
+}
+
+.sidebar .wrapper ul {
+	list-style-type: none;
+	padding: 0 40px 40px 30px;	
+}
+
+.sidebar .wrapper li {
+	color: white;
+	padding: 0px 10px;	
+}
+
+.sidebar .design-selection li {	
+	border-bottom: 1px solid #CFCCC4;	
+	padding: 2px 2px 7px 25px;
+}
+
+.summary p:last-child {
+	display: block;	
+	font-size: 1.2em;
+	font-weight: bold;
+	left: 1015px;
+	line-height: 1.4em;
+	padding: 80px 40px 0 20px;
+	position: absolute; 	 	
+	top: 850px;	
+	width: 600px;
+}
+
+footer { 	
+	font-size: 1.2em;
+	line-height: 2.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+a:link, 
+a:visited {
+	color:rgb(17, 20, 20);
+	text-decoration: none;
+}
+
+a:hover, 
+a:active, 
+a:focus  {
+	background: #22225f;
+	color:white;
+}
