@@ -63,6 +63,7 @@ function guess_number() {
     }
 }
 
+// Welcome to the wholesome pitstop. If you stumbled upon this comment, just wanted to say hope you have an awesome day!
 function new_game() {
     // Reinitialize the starting parameters of the game
     num_of_guesses = 0;
