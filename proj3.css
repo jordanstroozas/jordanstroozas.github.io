@@ -1,0 +1,88 @@
+body { 
+	background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+	color: white;
+	font-family: Verdana,Arial,Helvetica;
+}
+
+.guessing_game {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-height: 350px;
+    padding: 2px;
+    margin: 150px;
+    background-color:rgba(0, 0, 0, 0.205);
+}
+
+/* For button animation help https://www.w3schools.com/howto/howto_css_animate_buttons.asp */
+#guess_btn {
+    position: relative;
+    background-color: #04AA6D;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #guess_btn:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  #guess_btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  #reset_btn{
+    position: relative;
+    background-color: red;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #reset_btn:after {
+    content: "";
+    background: rgba(211, 9, 9, 0.877);
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  #reset_btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="proj3.css">
+</head>
+<body>
+    <div class = "guessing_game">
+        <h1>Welcome to the Guessing Game</h1> 
+        <h4>Try to guess the number within 15 guesses! (1-1000)</h4> 
+
+        <input type="text" onfocus="this.value=''" placeholder="Enter Guess" id="guess">
+        <br><br>
+        <button onclick="guess_number()" id="guess_btn">Guess</button>
+        <button onclick="new_game()" id="reset_btn">RESET</button>
+
+        <p id="res1">Number of Guesses Remaining: 15</p>
+        <p id="res2">Guessed Numbers are: </p>
+        <p id="res3"></p>
+
+    </div>
+    <script src="jsProj3.js"></script>
+</body>
+</html>
