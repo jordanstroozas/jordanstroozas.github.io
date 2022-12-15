@@ -55,8 +55,8 @@ function generateActivity() {
   xhr.send();
   xhr.addEventListener('load', function(){
     let data = JSON.parse(xhr.responseText);
-    let quote = data["activity"]
-    document.getElementById("inspired").innerHTML += quote;
+    let activity = data["activity"]
+    document.getElementById("inspired").innerHTML += activity;
     document.getElementById("inspired").innerHTML += "<br><br>";
     if (activityCount > 5)
     {
