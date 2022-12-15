@@ -1,0 +1,43 @@
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_three_columns */
+
+* {
+    box-sizing: border-box;
+    color: rgb(95, 95, 95);
+    font-size: 26px;
+  }
+
+#title 
+{
+    width: 100%;
+    background: rgb(190, 232, 243);
+    padding:30px;
+    border: 4px solid;
+    box-shadow: 10px 12px 12px -2px;
+    /* background: rgba(31, 104, 80, 0.2) Green background with 30% opacity */
+}   
+
+h1 
+{
+    font-size: 40px;
+}
+.row {
+    background: rgba(255, 255, 255, 0.7)/* Green background with 30% opacity */
+}
+/* Create three equal columns that floats next to each other */
+.column {
+float: left;
+width: 33.33%;
+padding: 10px;
+height: 100%; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+a:link {
+    color: black;
+  }
