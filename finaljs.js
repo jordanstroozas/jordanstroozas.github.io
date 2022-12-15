@@ -49,14 +49,16 @@ function generateQuote() {
 
 // Weird side note. This function worked on my end, yet lost its functionality
 // when posted onto github...
+// Fixed: HTTPS issue where the API call could not be made with XMLHttpRequest
 function generateActivity() {
-  let xhr = new XMLHttpRequest();
-  xhr.open('GET', randomurl, true);
-  xhr.send();
-  xhr.addEventListener('load', function(){
-    let data = JSON.parse(xhr.responseText);
-    let activity = data["activity"]
-    document.getElementById("inspired").innerHTML += activity;
+  fetch(randomurl).then(response => response.json()
+  ).then(data => displayActivity(data));
+
+  function displayActivity(data){
+    const json = data;
+    var stringify = JSON.stringify(json);
+    const activity = JSON.parse(stringify);
+    document.getElementById("inspired").innerHTML += activity["activity"];
     document.getElementById("inspired").innerHTML += "<br><br>";
     if (activityCount > 5)
     {
@@ -64,5 +66,5 @@ function generateActivity() {
       activityCount = 0;
     }
     activityCount++;
-  })
+  }
 }
