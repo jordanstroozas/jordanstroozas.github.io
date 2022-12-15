@@ -5,7 +5,7 @@ const meal_container = document.getElementById('meal');
 // API's to pull from. Meals/Quotes from James Clear/Random Activities
 var mealurl = 'https://www.themealdb.com/api/json/v1/1/random.php'
 var jamesurl = 'https://www.jcquotes.com/api/quotes/random'
-var randomurl = 'http://www.boredapi.com/api/activity/'
+var randomurl = 'https://www.boredapi.com/api/activity/'
 
 var quoteCount = 0;
 var activityCount = 0;
@@ -52,19 +52,17 @@ function generateQuote() {
 function generateActivity() {
   let xhr = new XMLHttpRequest();
   xhr.open('GET', randomurl, true);
-  xhr.responseType = "json";
   xhr.send();
-  xhr.onreadystatechange = function(){
-
-    if (xhr.status == 200) {
-      document.getElementById("inspired").innerHTML += xhr.response["activity"];
-      document.getElementById("inspired").innerHTML += "<br><br>";
-    }
+  xhr.addEventListener('load', function(){
+    let data = JSON.parse(xhr.responseText);
+    let quote = data["activity"]
+    document.getElementById("inspired").innerHTML += quote;
+    document.getElementById("inspired").innerHTML += "<br><br>";
     if (activityCount > 5)
     {
       document.getElementById("inspired").innerHTML = "";
       activityCount = 0;
     }
     activityCount++;
-  }
+  })
 }
