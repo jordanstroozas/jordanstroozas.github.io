@@ -1,3 +1,4 @@
+// JS file to handle the 3 different API's & loading data to site
 const get_meal_btn = document.getElementById('get_meal');
 const meal_container = document.getElementById('meal');
 
